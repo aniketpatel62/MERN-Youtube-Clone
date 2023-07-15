@@ -10,6 +10,7 @@ Multifeature Video Sharing web app using MERN stack , JWT authentication and goo
 <li class="has-line-data" data-line-start="8" data-line-end="9">Search videos related to input query(using regex) or tags</li>
 <li class="has-line-data" data-line-start="9" data-line-end="10">Upload video with Title, Description, Tags and cover image</li>
 <li class="has-line-data" data-line-start="10" data-line-end="11">Signin/signup with username, email, password or Google account</li>
+<li class="has-line-data" data-line-start="10" data-line-end="11">Light/dark theme</li>
 </ul>
 <h2 class="code-line" data-line-start=13 data-line-end=14 ><a id="Tech_13"></a>Tech</h2>
 <ul>
