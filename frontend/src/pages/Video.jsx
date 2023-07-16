@@ -134,10 +134,13 @@ const Video = () => {
         );
         setChannel(channelRes.data);
         dispatch(fetchSuccess(videoRes.data));
-      } catch (err) {}
+      } catch (err) { }
     };
     fetchData();
   }, [path, dispatch]);
+
+  if (!currentUser) return 'Loading....';
+
 
   const handleLike = async () => {
     await axios.put(`/users/like/${currentVideo._id}`);
